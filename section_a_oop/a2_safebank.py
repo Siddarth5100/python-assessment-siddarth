@@ -33,7 +33,7 @@ class BankAccount:
         return self.__balance
     
     def print_statement(self):
-        print(f"")
+        print(f"Account Holder: {self.acc_holder_name}, {self.transaction_details}, Current Balance: {self.get_balance()}")
 
 # try:
 #     ba = BankAccount("Aruna", 50)
@@ -85,3 +85,5 @@ ba = BankAccount("Aruna", 500)
 
 # acc.withdraw(5000)
 # print(acc.transaction_details)
+
+# ba.print_statement()
